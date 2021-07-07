@@ -1,6 +1,6 @@
 #Makefile
 
-all: sum-tset
+all: sum-test
 
 sum-test : sum.o main.o
 	g++ -o sum-test sum.o main.o
